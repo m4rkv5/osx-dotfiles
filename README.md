@@ -32,6 +32,28 @@ stow */ # Every subfolder
 stow zsh # Single subfolder
 ```
 
+## Homebrew
+
+
+
+Install all content from ~/Brewfile 
+
+```
+brew bundle install
+```
+
+Dump a Brewfile of current brew/cask/mas entries
+
+```
+brew bundle dump --file=~/Brewfile --force
+```
+
+Match current system configuration to brewfile
+```
+brew bundle --force cleanup
+```
+[brew-bundle-brewfile-tips.md](https://gist.github.com/ChristopherA/a579274536aab36ea9966f301ff14f3f#file-brew-bundle-brewfile-tips-md)
+
 ## System settings
 
 ```bash
