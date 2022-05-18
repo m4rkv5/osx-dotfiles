@@ -50,7 +50,9 @@ Set your email address:
 git config --global user.email $MAIL
 ```
 
-## 1Password SSH Agent
+## SSH Agent
+
+[Documentation](https://developer.1password.com/docs/ssh)
 
 ```
 mkdir ~/.ssh
