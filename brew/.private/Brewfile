@@ -1,9 +1,36 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+brew "mas"
 brew "neovim"
 brew "python-tk@3.9"
 brew "stow"
 cask "cryptomator"
+cask "firefox"
+cask "keepassxc"
+cask "keka"
+cask "little-snitch"
 cask "macfuse"
+cask "nextcloud"
+cask "openinterminal"
 cask "rectangle"
+cask "signal"
+cask "sublime-merge"
+cask "visual-studio-code"
+cask "vmware-fusion"
+cask "vorta"
+mas "1Password for Safari", id: 1569813296
+mas "Affinity Designer", id: 824171161
+mas "Affinity Photo", id: 824183456
+mas "Brother iPrint&Scan", id: 1193539993
+mas "Cardhop", id: 1290358394
+mas "Fantastical", id: 975937182
+mas "Hush", id: 1544743900
+mas "iStat Menus", id: 1319778037
+mas "Ka-Block!", id: 1335413823
+mas "Keynote", id: 409183694
+mas "Noir", id: 1592917505
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Privacy Redirect for Safari", id: 1578144015
+mas "Yubico Authenticator", id: 1497506650
