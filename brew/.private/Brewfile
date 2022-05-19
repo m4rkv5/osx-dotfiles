@@ -5,6 +5,7 @@ brew "mas"
 brew "neovim"
 brew "python-tk@3.9"
 brew "stow"
+cask "arq"
 cask "cryptomator"
 cask "firefox"
 cask "keepassxc"
@@ -33,4 +34,5 @@ mas "Noir", id: 1592917505
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Privacy Redirect for Safari", id: 1578144015
+mas "Texpad", id: 458866234
 mas "Yubico Authenticator", id: 1497506650
