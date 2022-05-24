@@ -25,11 +25,11 @@ git clone git@github.com:m4rkv5/osx-dotfiles.git ~
 Run `stow` to symlink everything or just select what you want
 
 ```bash
-stow */ # Every subfolder
+stow --no-folding */ # Every subfolder
 ```
 
 ```bash
-stow zsh # Single subfolder
+stow --no-folding zsh # Single subfolder
 ```
 
 ## Homebrew
