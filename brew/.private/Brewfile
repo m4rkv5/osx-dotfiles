@@ -17,6 +17,7 @@ cask "keka"
 cask "little-snitch"
 cask "macfuse"
 cask "nextcloud"
+cask "openconnect-gui"
 cask "openinterminal"
 cask "rectangle"
 cask "signal"
@@ -31,6 +32,7 @@ mas "Brother iPrint&Scan", id: 1193539993
 mas "Cardhop", id: 1290358394
 mas "Fantastical", id: 975937182
 mas "Hush", id: 1544743900
+mas "iMovie", id: 408981434
 mas "iStat Menus", id: 1319778037
 mas "Ka-Block!", id: 1335413823
 mas "Keynote", id: 409183694
