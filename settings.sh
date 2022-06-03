@@ -1,6 +1,7 @@
 ###############################################################################
 # A database of hidden settings for Mac OS X                                  #
 # https://web.archive.org/web/20150621044359/http://secrets.blacktree.com/
+# https://macos-defaults.com
 ###############################################################################
 
 
@@ -35,6 +36,11 @@ defaults write NSGlobalDomain com.apple.mouse.forceClick -bool true
 # Require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
+
+# Screenshot location
+defaults write com.apple.screencapture "location" -string "~/Desktop"
+
+
 
 ###############################################################################
 # Finder                                                                      #
@@ -125,7 +131,12 @@ defaults write com.apple.dock showhidden -bool true
 # Don’t show recent applications in Dock
 # defaults write com.apple.dock show-recents -bool false
 
+# Minimize window to application icon
+defaults write com.apple.dock minimize-to-application -bool true
 
+# Minimize scale Effect
+defaults write com.apple.dock "mineffect" -string "scale"
+# defaults write com.apple.dock "mineffect" -string "genie"
 
 ###############################################################################
 # Other
