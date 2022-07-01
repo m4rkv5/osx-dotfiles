@@ -9,6 +9,7 @@ brew "neovim"
 brew "openssh"
 brew "python-tk@3.9"
 brew "stow"
+cask "anaconda"
 cask "bettertouchtool"
 cask "cryptomator"
 cask "firefox"
@@ -16,7 +17,9 @@ cask "keepassxc"
 cask "keka"
 cask "little-snitch"
 cask "macfuse"
+cask "mactex-no-gui"
 cask "nextcloud"
+cask "obsidian"
 cask "openconnect-gui"
 cask "openinterminal"
 cask "rectangle"
@@ -24,13 +27,12 @@ cask "signal"
 cask "sublime-merge"
 cask "visual-studio-code"
 cask "vmware-fusion"
-cask "vorta"
 mas "1Password for Safari", id: 1569813296
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
 mas "Brother iPrint&Scan", id: 1193539993
 mas "Cardhop", id: 1290358394
-mas "Fantastical", id: 975937182
+mas "Fiery Feeds", id: 1158763303
 mas "Hush", id: 1544743900
 mas "iMovie", id: 408981434
 mas "iStat Menus", id: 1319778037
@@ -41,4 +43,5 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Privacy Redirect for Safari", id: 1578144015
 mas "Texpad", id: 458866234
+mas "Todoist", id: 585829637
 mas "Yubico Authenticator", id: 1497506650
